@@ -463,9 +463,6 @@ footer li {
   }
 
   .simply-countdown > .simply-section {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
     padding: 60px;
     margin: 5;
   }
@@ -504,7 +501,7 @@ footer li {
     padding: 0.7rem 1.2rem;
     font-size: 1rem;
     margin-bottom: 2rem;
-    /* font-weight: bold; */
+    font-weight: bold;
   }
 }
 
@@ -516,8 +513,8 @@ footer li {
 
   .simply-countdown > .simply-section {
     display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     padding: 45px;
     margin: 3px;
   }
