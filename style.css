@@ -471,9 +471,15 @@ footer li {
     font-size: 2rem;
     text-align: center;
   }
+
   .home .zee {
     margin-top: 2rem;
   }
+
+  .home .couple {
+    margin-top: 6rem;
+  }
+
   .sticky-top {
     overflow: hidden;
   }
